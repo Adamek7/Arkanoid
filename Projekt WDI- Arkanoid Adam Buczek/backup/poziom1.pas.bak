@@ -1,0 +1,76 @@
+unit poziom1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+
+
+
+uses
+  Classes, SysUtils, allegro, poczatek,paletka;
+
+const wiersz = 10;
+const kolumna = 8;
+
+type
+klocek = record
+	posX:integer;
+	posY:integer;
+	wyswietlanie:^AL_BITMAP;
+        widok:boolean;
+end;
+
+var
+  tablica_pzm1 : Array[1..wiersz, 1..kolumna] of klocek;
+
+procedure init_pzm1();
+procedure wys_pzm1();
+
+implementation
+
+
+procedure init_pzm1();
+var i,j:integer;
+begin
+  for i:=1 to wiersz do
+  begin
+    for j:=1 to kolumna do
+    begin
+      tablica_pzm1[i][j].wyswietlanie := NIL;
+      tablica_pzm1[i][j].wyswietlanie := al_load_bmp( 'zielony_klocek.bmp', @al_default_palette);
+      if( tablica_pzm1[i][j].wyswietlanie = NIL ) then
+      begin
+        al_set_gfx_mode( AL_GFX_TEXT, 0, 0, 0, 0 );
+        al_message( 'nie mogę załadować obrazka !' );
+        al_exit();
+        exit();
+      end
+      else tablica_pzm1[i][j].widok := true;
+    end;
+  end;
+  //tablica_pzm1[5][5].widok:=false;
+end;
+
+procedure wys_pzm1();
+var i,j,x,y:integer;
+begin
+  x := 0;
+  y := 0;
+  for i:=1 to wiersz do
+  begin
+    for j:=1 to kolumna do
+    begin
+      if(tablica_pzm1[i][j].widok = true) then
+      al_blit(tablica_pzm1[i][j].wyswietlanie, bufor, 0, 0, x, y, tablica_pzm1[i][j].wyswietlanie^.w, tablica_pzm1[i][j].wyswietlanie^.h);
+      tablica_pzm1[i][j].posX := x;
+      tablica_pzm1[i][j].posY := y;
+      x := x + 100;
+    end;
+    y:= y + 20;
+    x := 0;
+  end;
+end;
+
+end.
+

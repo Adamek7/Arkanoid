@@ -1,0 +1,40 @@
+unit iik2;
+
+{$mode objfpc}{$H+}
+
+
+interface
+
+uses
+  Classes, SysUtils, allegro;
+
+procedure start();
+procedure wys_tlo();
+procedure stop();
+
+
+
+implementation
+
+procedure start();
+begin
+  al_init();
+  al_install_keyboard();
+  al_set_color_depth(16);
+  al_set_gfx_mode(AL_GFX_AUTODETECT_WINDOWED, 1000, 600, 0, 0);
+  al_set_palette( al_default_palette );
+end;
+
+procedure wys_tlo();
+begin
+  al_clear_to_color(al_screen, al_makecol(67, 191, 199));
+end;
+
+procedure stop();
+begin
+  al_readkey();
+  al_exit();
+end;
+
+end.
+

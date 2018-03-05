@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="Arkanoid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="inicjalizacja.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="iik"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13" Y="5"/>
+        <UsageCount Value="72"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="panel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="132"/>
+        <CursorPos X="91" Y="176"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="poziom1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="poziomy"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="76"/>
+        <UsageCount Value="70"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="paletka.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="28"/>
+        <CursorPos X="39" Y="9"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="poczatek.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="33"/>
+        <CursorPos X="5" Y="63"/>
+        <UsageCount Value="68"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="kulka.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="79"/>
+        <CursorPos X="43" Y="91"/>
+        <UsageCount Value="66"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="poziomy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="69"/>
+        <CursorPos X="20" Y="194"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="bonusy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="52"/>
+        <CursorPos X="46" Y="72"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="iik2.pas"/>
+        <UnitName Value="iik"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="F:\Projekt WDI\poziom1.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="bonusy.pas"/>
+        <Caret Line="322" Column="25" TopLine="305"/>
+      </Position1>
+      <Position2>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="160" Column="14" TopLine="145"/>
+      </Position2>
+      <Position3>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="173" Column="10" TopLine="22"/>
+      </Position3>
+      <Position4>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="240" Column="5" TopLine="221"/>
+      </Position4>
+      <Position5>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="253" Column="6" TopLine="238"/>
+      </Position5>
+      <Position6>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="48" Column="9" TopLine="31"/>
+      </Position6>
+      <Position7>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="274" Column="17" TopLine="244"/>
+      </Position7>
+      <Position8>
+        <Filename Value="poczatek.pas"/>
+        <Caret Line="61" Column="18" TopLine="50"/>
+      </Position8>
+      <Position9>
+        <Filename Value="panel.pas"/>
+        <Caret Line="85" Column="35" TopLine="76"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="28" Column="8" TopLine="19"/>
+      </Position10>
+      <Position11>
+        <Filename Value="panel.pas"/>
+        <Caret Line="99" Column="66" TopLine="90"/>
+      </Position11>
+      <Position12>
+        <Filename Value="panel.pas"/>
+        <Caret Line="124" Column="47" TopLine="91"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="30" Column="19" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="panel.pas"/>
+        <Caret Line="128" Column="64" TopLine="109"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="54" Column="5" TopLine="41"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="57" Column="13" TopLine="29"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="31" Column="10" TopLine="22"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="38" Column="54" TopLine="13"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="11" Column="74" TopLine="7"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="53" Column="114" TopLine="50"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="74" Column="44" TopLine="65"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="81" Column="16" TopLine="65"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="76" Column="103" TopLine="66"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="75" Column="36" TopLine="64"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="77" Column="15" TopLine="72"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="75" Column="40" TopLine="64"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="76" Column="20" TopLine="63"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="61" Column="28" TopLine="44"/>
+      </Position28>
+      <Position29>
+        <Filename Value="poziomy.pas"/>
+        <Caret Line="84" Column="20" TopLine="70"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Arkanoid.lpr"/>
+        <Caret Line="63" Column="43" TopLine="48"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
